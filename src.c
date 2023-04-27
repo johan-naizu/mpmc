@@ -34,8 +34,9 @@ void main(void)
 {
     TRISD=0b00000000;
     TRISB=0b01001001;
-    //B0-start,stop
-    //B1-reset
+    //B0-start
+    //B3-stop
+    //B6-reset
     PORTD=output[9];
     
     while(1)
